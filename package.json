@@ -1,6 +1,6 @@
 {
     "name": "n8n-nodes-google-places-pro-creator33",
-    "version": "1.1.3",
+    "version": "1.1.4",
     "description": "Custom node to search places using Google Places API v1",
     "license": "MIT",
     "homepage": "https://github.com/pipperpotts/n8n-nodes-google-places",
@@ -34,7 +34,7 @@
             "dist/credentials/GooglePlacesApi.credentials.js"
         ],
         "nodes": [
-            "dist/nodes/GooglePlaces.node.js"
+            "dist/nodes/GooglePlaces/GooglePlaces.node.js"
         ]
     },
     "devDependencies": {
